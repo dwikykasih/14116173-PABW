@@ -1,0 +1,24 @@
+body {
+	background: url('https://www.freegreatpicture.com/files/photo99/49489-however-the-desktop-wallpaper-stand-clear-views.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.isi {
+	background-color: rgb(0,0,0);
+	background-color: rgb(0,0,0,0.2);
+	margin-top: 70px; width: 450px;
+	margin-left: 50px;
+
+	padding: 10px;
+}
+
+h1 {
+	font-family: cambria;
+}
+
+p {
+	font-family: garamond;
+	margin-top: -10px; 
+}
