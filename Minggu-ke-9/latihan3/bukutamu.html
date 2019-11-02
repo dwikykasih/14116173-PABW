@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buku Tamu</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="form-control">
+	<h1>Buku Tamu Untuk Database MySQL</h1>
+	
+	<form action="prosesTambah.php" method="POST">
+		<label>Nama: </label>
+		<input type="text" name="nama" size="35" maxlength="50" class="form-control" style="width: 300px;" required="" placeholder="Isi nama anda!"><br>
+		<label>Email: </label>
+		<input style="width: 300px;" class="form-control" type="email" name="email" size="35" maxlength="50" required="" placeholder="Isi email anda!"><br>
+		<label>Komentar: </label>
+		<textarea class="form-control" placeholder="tulis komentar!" style="width: 300px;" name="komentar" rows="5" cols="30"></textarea><br><br>
+
+		<input type="submit" name="simpan" class="btn btn-primary">
+		<input type="reset" name="reset" class="btn btn-primary">
+	</form>
+</div>
+</body>
+</html>
