@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Informatika</title>
+</head>
+<body>
+    <h2>Data Siswa</h2>
+        <form action="T_M.php" method="POST" target="_blank">
+            <label>Nama :</label>
+            <input type="textfield" name="nama" autofocus required><br><br>
+
+            <label>Alamat : </label>
+            <input type="textfield" name="alamat"><br><br>
+            
+            <label>Jenis Kelamin : </label><br>
+            <input type="radio" name="kelamin" value="Laki-Laki" > Laki-Laki<br>
+            <input type="radio" name="kelamin" value="Perempuan"> Perempuan<br><br>
+            
+            <label>Hobby : </label><br>
+            <input type="checkbox" name="hobi" value="Menggambar">Menggambar<br>
+            <input type="checkbox" name="hobi" value="Berenang">Berenang<br>
+            <input type="checkbox" name="hobi" value="Olahraga">Olahraga<br>
+            <input type="checkbox" name="hobi" value="Traveling">Traveling<br>
+            <input type="checkbox" name="hobi" value="Belajar">Belajar<br><br>
+            
+            <label>Golongan Darah : </label>
+            <select name="goldar">
+                <option value="a" >A</option>
+		        <option value="b">B</option>
+                <option value="ab">AB</option>
+                <option value="o">O</option>
+	        </select><br><br>
+            
+            <label>Lainnya : </label><br>
+            <textarea name="lainnya" rows="5" cols="5"></textarea><br>
+            <input type="submit" value="Submit" name="submit">
+        </form>
+</body>
+</html>
